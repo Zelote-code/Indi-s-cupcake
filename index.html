@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indi's Cupcakes</title>
+    <link rel="icon" class="rounded-circle" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/anan.jpg" alt="Indi's Cupcakes" class="logo-img">
+                <h1 style="color: white;">Indi's Cupcakes</h1>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1>Welcome to Indi's Cupcakes!</h1>
+            <p>Let us be your sweet escape!</p>
+        </div>
+        <video class="hero-video" width="400" height="200" controls autoplay muted loop>
+            <source src="imgs/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+        <div class="about-text">
+        <h2>Our Story</h2>
+        <p>At Indi's Cupcakes, we believe that cupcakes are more than just treats, they’re a moment of joy! Established in 2024, we have made it our mission to bring you the finest cupcakes using locally sourced ingredients and family recipes.</p>
+    
+        <h3>Mission</h3>
+        <p>To produce a cupcake that will suit everyone's taste.</p>
+
+        <h3>Vision</h3>
+        <p>To bring happiness and satisfaction to our dear costumers.</p>
+    </div>
+        <div class="about-poster">
+            <img src="imgs/post.jpg" alt="About Us Poster" />
+        </div>
+        </div>
+            
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <h2>Our Cupcakes</h2>
+      <div class="menu-container">
+      <div class="menu-item">
+        <img src="imgs/vanilla dream.jpg" alt="vanilla">
+          <h3>Vanilla Dream</h3>
+          <p>A classic vanilla cupcake with a creamy buttercream frosting.</p>
+          <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+      </div>
+      <div class="menu-item">
+        <img src="imgs/chocolate bliss.jpg" alt="chocolate">
+          <h3>Chocolate Bliss</h3>
+          <p>Rich, moist chocolate cake topped with decadent chocolate ganache.</p>
+          <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+      </div>
+      <div class="menu-item">
+        <img src="imgs/strawberry swirl.jpg" alt="strawberry">
+          <h3>Strawberry Swirl</h3>
+          <p>Fresh strawberry-infused cake with strawberry frosting.</p>
+          <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+      </div>
+      <div class="menu-item">
+        <img src="imgs/caramel crunch.jpg" alt="caramel">
+          <h3>Caramel Crunch</h3>
+          <p>A salted caramel cupcake with a crunchy topping.</p>
+          <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+      </div>
+      <div class="menu-item">
+        <img src="imgs/cookies&cream.JPG" alt="CC">
+        <h3>Cookies & Cream</h3>
+        <p>A chocolate cupcake topped with creamy frosting and crushed cookies.</p>
+        <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+    </div>
+    <div class="menu-item">
+        <img src="imgs/red velvet.jpg" alt="Velvet">
+        <h3>Red Velvet</h3>
+        <p>A moist, rich cupcake with a hint of cocoa, topped with creamy cream frosting.</p>
+        <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+    </div>
+    <div class="menu-item">
+        <img src="imgs/midnight mint.jpg" alt="Midnight">
+        <h3>Midnight Mint</h3>
+        <p>A chocolate cupcake with a refreshing mint frosting and a rich, decadent flavor.</p>
+        <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+    </div>
+    <div class="menu-item">
+        <img src="imgs/banoffee.jpg" alt="Banoffee">
+        <h3>Banoffee</h3>
+        <p>A banana and toffee treat topped with caramel, whipped cream, and a banana slice.</p>
+        <a href="#order" class="menu-button">Order Now</a> <!-- Added button -->
+    </div>
+      </div>
+  </section>
+
+
+  <!-- Order Section -->
+ <!-- Order Section -->
+<section id="order">
+    <div class="order-head">
+        <h2>Order Your Cupcakes</h2>
+    </div>
+    <form id="orderForm">
+        <div class="order-item">
+            <label>
+                Vanilla Dream:
+                <input type="number" name="vanilla" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Chocolate Bliss:
+                <input type="number" name="chocolate" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Strawberry Swirl:
+                <input type="number" name="strawberry" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Caramel Crunch:
+                <input type="number" name="caramel" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Cookies & Cream:
+                <input type="number" name="cookies" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Red Velvet:
+                <input type="number" name="red" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Midnight Mint:
+                <input type="number" name="midnight" min="0" value="0"> 
+            </label>
+        </div>
+        <div class="order-item">
+            <label>
+                Banoffee:
+                <input type="number" name="banoffee" min="0" value="0"> 
+            </label>
+        </div>
+        <button type="submit">Order Now</button>
+    </form>
+</section>
+
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Indi's Cupcakes. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
