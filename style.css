@@ -184,6 +184,54 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+  #about {
+    padding: 80px 15px;
+  }
+
+  .about-text h2 {
+    font-size: 1.6em;
+  }
+
+  .about-text p {
+    font-size: 0.9em;
+  }
+
+  .about-poster img {
+    width: 100%; /* Full width on very small screens */
+  }
+}
+
+
+@media (max-width: 400px) {
+  #about {
+    padding: 50px 10px;
+  }
+
+  .about-text h2 {
+    font-size: 1.3em; /* Slightly smaller heading font */
+  }
+
+  .about-text p {
+    font-size: 0.8em; /* Further reduce font size */
+    margin-bottom: 15px;
+  }
+
+  #about h2 {
+    font-size: 1.8rem; /* Adjust main section title size */
+  }
+
+  .about-poster img {
+    width: 100%; /* Ensure images don’t overflow */
+    border-radius: 5px; /* Reduce rounding for smaller displays */
+  }
+
+  .about-content {
+    gap: 10px; /* Tighten spacing for small screens */
+  }
+}
+
 /* Menu Section */
 /* Container for the menu items */
 #menu {
