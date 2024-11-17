@@ -364,6 +364,55 @@ button[type="submit"]:hover {
   background-color: #ff5c8e; /* darker orange on hover */
 }
 
+/* Responsive styles for screens 768px or less */
+@media (max-width: 768px) {
+  #order {
+    padding: 80px 15px;
+    max-width: 95%;
+  }
+
+  .order-head h2 {
+    font-size: 1.4em;
+  }
+
+  select, input[type="number"] {
+    font-size: 0.95em;
+  }
+
+  button[type="submit"] {
+    font-size: 1em;
+  }
+}
+
+/* Responsive styles for screens 400px or less */
+@media (max-width: 400px) {
+  #order {
+    padding: 50px 10px;
+    max-width: 100%;
+  }
+
+  .order-head h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+
+  form label {
+    font-size: 0.9em;
+  }
+
+  select, input[type="number"] {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+}
+
+
+
 /* Footer */
 footer {
   text-align: center;
